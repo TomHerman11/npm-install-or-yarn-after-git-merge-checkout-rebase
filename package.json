@@ -19,7 +19,7 @@
   },
   "husky": {
     "hooks": {
-      "post-merge": "./githooks/is-lock-file-changed.sh"
+      "post-merge": "./githooks/is-lock-file-changed-after-merge.sh"
     }
   }
 }
