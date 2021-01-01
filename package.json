@@ -16,5 +16,10 @@
   "scripts": {},
   "devDependencies": {
     "husky": "^4.3.6"
+  },
+  "husky": {
+    "hooks": {
+      "post-merge": "./githooks/is-lock-file-changed.sh"
+    }
   }
 }
