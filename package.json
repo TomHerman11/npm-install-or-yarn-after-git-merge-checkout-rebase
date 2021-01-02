@@ -20,6 +20,7 @@
   },
   "husky": {
     "hooks": {
+      "post-checkout": "./githooks/npm/post-checkout.sh $HUSKY_GIT_PARAMS",
       "post-merge": "./githooks/npm/post-merge.sh"
     }
   }
