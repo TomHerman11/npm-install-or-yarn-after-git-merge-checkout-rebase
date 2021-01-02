@@ -1,18 +1,10 @@
 {
-  "name": "npm-install-after-git-merge-or-rebase",
+  "name": "npm-install-or-yarn-after-git-merge-checkout-rebase",
   "version": "1.0.0",
-  "description": "This repository is an example of an npm project with recommendation to run npm install (or yarn) after git merge (as part of git pull) or git rebase",
+  "description": "An example of a Node.js project that utilizes the npm package Husky and git hooks for automatic execution of npm install (or yarn) after git merge, git checkout or git rebase, if needed ⛑️🛠️",
   "author": "Tom Herman",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TomHerman11/npm-install-after-git-merge-or-rebase.git"
-  },
-  "bugs": {
-    "url": "https://github.com/TomHerman11/npm-install-after-git-merge-or-rebase/issues"
-  },
-  "homepage": "https://github.com/TomHerman11/npm-install-after-git-merge-or-rebase#readme",
-  "main": "index.js",
+  "homepage": "https://github.com/TomHerman11/npm-install-after-git-merge-or-rebase",
   "scripts": {},
   "devDependencies": {
     "husky": "^4.3.6"
