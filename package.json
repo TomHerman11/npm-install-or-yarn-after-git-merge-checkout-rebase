@@ -4,7 +4,7 @@
   "description": "An example of a Node.js project that utilizes the npm package Husky and git hooks for automatic execution of npm install (or yarn) after git merge, git checkout or git rebase, if needed ⛑️🛠️",
   "author": "Tom Herman",
   "license": "ISC",
-  "homepage": "https://github.com/TomHerman11/npm-install-after-git-merge-or-rebase",
+  "homepage": "https://github.com/TomHerman11/npm-install-or-yarn-after-git-merge-checkout-rebase",
   "scripts": {},
   "devDependencies": {
     "husky": "^4.3.6"
