@@ -1,6 +1,9 @@
 # npm-install-or-yarn-after-git-merge-checkout-rebase
 An example of a Node.js project that utilizes [the npm package Husky](https://www.npmjs.com/package/husky) and git hooks for automatic execution of `npm install` (or `yarn`) after `git merge`, `git checkout` or `git rebase`, **if needed**.
 
+## Demo
+<img src="demo.gif" alt="Example video" width="800"/>
+
 ## How to Use
 1. Install husky: `npm install --save-dev husky`
 2. Copy and use the relevant scripts from this repository for `npm` (./githooks/npm/) or `yarn` (./githooks/yarn/).
